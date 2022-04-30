@@ -1,0 +1,39 @@
+/* selector {
+  property: value;
+} */
+*{
+    text-align: center;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/31/09/07/painting-4092702_640.jpg);
+    background-size: cover;
+    cursor: pointer;
+
+}
+h2 + p:hover {
+    color: rgb(253, 6, 6);
+    text-align: center;
+    border: 5px solid rgba(52, 10, 218, 0.5);
+    background-color: rgba(23, 546, 245, 0.5);
+    cursor: pointer;
+}
+p {
+    color: blue;
+}
+p {
+    color:black;
+}
+li{
+    list-style: none;
+}
+p{
+    /* text-align: center; */
+    border: 5px solid  gray;
+    color: orange
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h2{
+    /* text-align: center; */
+}
